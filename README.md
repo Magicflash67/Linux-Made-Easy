@@ -1,9 +1,12 @@
 # Linux-Made-Easy
-Linux Made Easy or LME is ment to help peoople who dont like the techincal jargon of every day linux. LME is ment to help set up Linux as Daily Drivers for regular people like you and me who arnt super computer science nerds.
+Linux Made Easy (LME) is meant to help people who don't like the technical jargon of everyday Linux. LME is here to help set up Linux as a daily driver for regular people, not necessarily computer science experts.
+
+**Disclaimer**: LME (Linux Made Easy) is not affiliated with or endorsed by the Linux Foundation.
+
 ## 📄 Licensing
 
 ### 🌐 Website & Documentation
-All content in the `/site` folder (guides, web layout, text) is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.  
+All content in the `/site` and `/guides` folder (guides, web layout, text) is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.  
 No commercial use is permitted without permission. Attribution is required.
 
 ### 💻 Scripts
