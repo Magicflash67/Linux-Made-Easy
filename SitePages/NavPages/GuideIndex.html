@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linux Made Easy - Guides</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-image: url('../../Images/Background.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    .hero-image {
+      background-image: url("../../Images/HERO.png");
+      height: 25%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+
+    ul.navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    ul.navbar li {
+      float: left;
+      border-right: 1px solid #bbb;
+    }
+
+    ul.navbar li:last-child {
+      border-right: none;
+    }
+
+    ul.navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    ul.navbar li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #ff9333;
+    }
+
+    .backbox {
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
+      width: 90%;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px;
+      border: 2px solid #ff9333;
+      border-radius: 12px;
+      font-family: monospace;
+    }
+
+    .guide-section ul {
+      list-style-type: none;
+      padding-left: 0;
+      color: #ffddc1;
+      font-size: 1.1rem;
+    }
+
+    .guide-section li {
+      margin-bottom: 10px;
+    }
+
+    .guide-section li strong {
+      color: #ff9333;
+    }
+
+    a.guide-link {
+      color: #ffddc1;
+      text-decoration: none;
+    }
+
+    a.guide-link:hover {
+      text-decoration: underline;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size: 50px;">GUIDES</h1>
+  </div>
+</div>
+
+<ul class="navbar">
+  <li><a href="../index.html">Home</a></li>
+  <li><a class="active" href="#">Guides</a></li>
+  <li><a href="#">Scripts</a></li>
+  <li><a href="#">Trouble Shooting</a></li>
+  <li><a href="#">Docs</a></li>
+  <li style="float:right"><a href="JPM.html">Java Package Manager (JPM)</a></li>
+  <li style="float:right"><a href="#about">About</a></li>
+</ul>
+
+<!-- Inside your guide-section -->
+<div class="backbox guide-section">
+  <h2 style="color: #ff9333;">Guide Index</h2>
+  <ul>
+    <li>
+      <strong>Linux Installs</strong>
+      <ul>
+        <li>• <a class="guide-link" href="./Templates/UbuntuInstall.html">Ubuntu Install (Placeholder)</a></li>
+        <li>• <a class="guide-link" href="./Templates/ArchInstall.html">Arch Install (Placeholder)</a></li>
+      </ul>
+    </li>
+    <br>
+    <li>
+      <strong>Linux Commands</strong>
+      <ul>
+        <li>• <a class="guide-link" href="../Topic-Commands/LME-Unzip.html">Unzip – How to extract compressed files</a></li>
+        <li>• <a class="guide-link" href="./Templates/FileNavigation.html">File Navigation (Placeholder)</a></li>
+        <li>• <a class="guide-link" href="./Templates/PackageManagement.html">Package Management Basics (Placeholder)</a></li>
+      </ul> 
+    </li>
+    <br>
+    <li>
+      <strong>Linux Bash</strong>
+      <ul>
+        <li>• <a class="guide-link" href="./Templates/FirstBashScript.html">Writing Your First Bash Script (Placeholder)</a></li>
+        <li>• <a class="guide-link" href="./Templates/BashAliases.html">Bash Aliases</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+
+</body>
+</html>
